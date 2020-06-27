@@ -1,0 +1,32 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0 10px 0;
+  &-header {
+    font-size: 2rem;
+    text-align: center;
+
+    &__description {
+      font-size: $mobile-font;
+      text-align: center;
+      padding: 10px 0 10px 0;
+    }
+  }
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: $mobile-font;
+}
+.luxbar-item {
+  display: flex;
+
+  @media (max-width: 770px) {
+    font-family: Gilroy-Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 42px;
+  }
+}

@@ -1,0 +1,20 @@
+footer {
+  display: flex;
+  align-items: center;
+
+  margin-top: 50px;
+  height: 100px;
+  min-width: 320px;
+  max-width: 1440px;
+  height: 100px;
+  background-color: $footer-color;
+  color: #d9cece;
+  font-family: Gilroy-Medium;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  margin: auto auto;
+  justify-content: center;
+}
