@@ -12,7 +12,12 @@
   }
 }
 .luxbar-item {
-  justify-items: left;
+  justify-items: center;
   width: 200px;
   text-align: center;
+  justify-content: center;
+
+  @media (max-width: 720px) {
+    margin: 10px auto;
+  }
 }

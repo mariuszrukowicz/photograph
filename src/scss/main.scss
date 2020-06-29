@@ -5,8 +5,11 @@
 @import 'modules/about.scss';
 @import 'modules/footer.scss';
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
-
+html {
+  scroll-behavior: smooth;
+}
 body {
+  scroll-behavior: smooth;
   background: #212121;
   color: #fff;
   display: block;
@@ -15,7 +18,7 @@ body {
   min-height: 100vh;
   min-width: 320px;
   max-width: 1450px;
-
+  border: white 2px solid;
   margin: auto auto;
   font-family: 'Montserrat', sans-serif;
 

@@ -165,7 +165,7 @@
                   <span></span>
                 </label>
               </li>
-              <li class="luxbar-item"><a href="#">O mnie</a></li>
+              <li class="luxbar-item"><a href="#about">O mnie</a></li>
               <li class="luxbar-item"><a href="#">Oferta</a></li>
               <li class="luxbar-item"><a href="#">Portfolio</a></li>
               <li class="luxbar-item"><a href="#">Kontakt</a></li>
@@ -179,8 +179,12 @@
         <span class="hero-header__description"
           >fotograf kulinarny i reklamowy</span
         >
-        <img src="../assets/img/main.svg" alt="zdjecie Rafał Kalbarczyk" />
-        <section class="about">
+        <picture class="hero-image">
+          <source media="(min-width:970px)" srcset="/src/assets/img/hero-desktop.svg" >
+            <source media="(min-width:300px)" srcset="/src/assets/img/hero-mobile.svg">
+              <img src="/src/assets/img/hero-desktop.svg" alt="hero">
+        </picture>
+        <section class="about" id="about">
           <h2 class="about-header">
             O mnie
           </h2>
