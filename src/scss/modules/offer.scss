@@ -1,0 +1,19 @@
+.offer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: $mobile-font;
+  min-height: 100vh;
+  margin-top: 2rem;
+  &-image {
+    overflow: hidden;
+
+    max-width: 90%;
+    max-width: 90%;
+    object-fit: fill;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    margin: auto auto;
+  }
+}
