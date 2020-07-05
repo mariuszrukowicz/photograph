@@ -22,11 +22,14 @@
   flex-direction: column;
   text-align: center;
   font-size: $mobile-font;
+  &-header {
+    margin-bottom: 10px;
+  }
 }
 .luxbar-item {
   display: flex;
 
-  @media (max-width: 770px) {
+  @media (max-width: 760px) {
     font-family: Gilroy-Bold;
     font-style: normal;
     font-weight: bold;

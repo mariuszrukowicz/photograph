@@ -70,6 +70,9 @@
 }
 .hero-header__description {
   margin-bottom: 20px;
+  @media (min-width: 320px) {
+    padding: 20px;
+  }
 }
 .gallery-section {
   width: 100%;
@@ -80,7 +83,6 @@
   width: 100%;
   max-width: 1200px;
   margin: auto;
-  padding: 0 20px;
 }
 
 .gallery-section h1 {

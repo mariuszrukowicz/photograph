@@ -177,42 +177,48 @@
       <section class="hero">
         
         
-        <section class="about">
-          <h2 class="about-header ">
+        <section class="hero">
+          <h2 class="hero-header ">
            Kontakt
           </h2>
           <span class="hero-header__description"
-          >Możesz mnie znaleźć w paru miejscach w sieci, ale jeśli wolisz zrobić to „po staremu”  to po prostu napisz do mnie wiadomość.</span
+          >Możesz mnie znaleźć w paru miejscach w sieci</span
           
         >
         <ul class="social">
+          
           <li class="social__item">
             <a class="social__link" href="https://www.facebook.com/kalbarczyk.wrega" > 
-              <img class="social__icon" src="/public/gallery/icon-fb.svg" alt="facebook"> </a>
+              <img class="social__icon   " src="/gallery/icon-fb.svg" alt="facebook"> </a>
           </li>
+          
           <li class="social__item">
             <a class="social__link" href="https://www.instagram.com/kalbarczyk_fotografiakulinarna/" > 
-              <img class="social__icon" src="/public/gallery/instagram.svg" alt="facebook"> </a>
+              <img class="social__icon" src="/gallery/instagram.svg" alt="instagram"> </a>
           </li>
           
   
         </ul>
+        <span class="hero-header__description"
+        > ale jeśli wolisz zrobić to „po staremu”  to po prostu napisz do mnie wiadomość.</span
+        
+      >
           <section class="contact">
 
             <section class="formContact">
               
               <form class="form" id="contactForm" method="post" novalidate action="send-script.php">
                 <div class="form-row">
-                    <label for="field-name">Name*</label>
+                    <label for="field-name"></label>
                     <input value="Twoje imię" type="text" name="name" required id="field-name" data-error="Wypełnij to pole" pattern="[a-zA-ZąĄććęęłŁńŃóÓśŚżŻŹŹ ]+">
                 </div>
                 <div class="form-row">
-                    <label for="field-email">Email*</label>
+                    <label for="field-email"></label>
                     <input value="Twój email" type="email" name="email" required id="field-email" data-error="Wpisz poprawny email" pattern="[^@\s]+@[^@\s]+\.[^@\s]+">
                 </div>
                 <div class="form-row">
-                    <label for="field-message">Message*</label>
-                    <textarea name="message" required data-error="Musisz wypełnić pole" id="field-message" pattern=".+">W czym mogę Ci pomuc?</textarea>
+                    <label for="field-message"></label>
+                    <textarea name="message" required data-error="Musisz wypełnić pole" id="field-message" pattern=".+">W czym mogę Ci pomóc?</textarea>
                 </div>
                 <div class="form-row">
                     <label class="checkbox-cnt">
