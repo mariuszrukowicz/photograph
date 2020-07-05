@@ -33,7 +33,7 @@
     margin: 10px auto;
     max-width: 100%;
 
-    @media (max-width: 420px) {
+    @media (max-width: 767px) {
       grid-template-columns: 1fr;
 
       grid-template-rows: 1fr;
